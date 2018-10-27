@@ -3,6 +3,7 @@ The Minesweeper game in 100 lines of JavaScript
 
 
 https://i.imgur.com/nOr6M7t.png
+
 We will create three arrays:
 1. "board", which will contain: 'mine' for mine or a number 0 thru 8 which is the number of mines in the eight neighboring tiles.
 2. "tile", which will consist of dynamically created image (IMG) objects, on which the player will click. The image can be:
