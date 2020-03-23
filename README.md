@@ -1,7 +1,7 @@
 # Minesweeper
-The Minesweeper game in 100 lines of JavaScript
+<a href= "https://slicker.me/javascript/mine/minesweeper.htm">The Minesweeper game in 100 lines of JavaScript.</a>
 
-<p align="right">
+<p align="center">
 <img src="https://i.imgur.com/nOr6M7t.png"></img>
 </p>
 
