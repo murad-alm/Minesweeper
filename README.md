@@ -7,8 +7,9 @@ The Minesweeper game in 100 lines of JavaScript
 
 We will create three arrays:
 
-1. "board", which will contain: 'mine' for mine or a number 0 thru 8 which is the number of mines in the eight neighboring tiles.
-2. "tile", which will consist of dynamically created image (IMG) objects, on which the player will click. The image can be:
+<b>1. "board"</b>, which will contain: 'mine' for mine or a number 0 thru 8 which is the number of mines in the eight neighboring tiles.
+
+<b>2. "tile"</b>, which will consist of dynamically created image (IMG) objects, on which the player will click. The image can be:
 
   - 0.png thru 8.png - number of mines in neighboring tiles (blank means zero)
 
@@ -25,7 +26,7 @@ These two are only shown after the game is finished:
   - misplaced.png - a place where a flag was incorrectly placed
 
 
-3. "picture", which will contain on of the following strings: hidden, flag and question so that we don't have to get the image name and strip the '.png' ending each time we need to check what the tile is showing
+<b>3. "picture"</b>, which will contain on of the following strings: hidden, flag and question so that we don't have to get the image name and strip the '.png' ending each time we need to check what the tile is showing
 
 Because JavaScript does not directly support two-dimensional arrays, we will create an array of arrays (lines 13-19). For example the main array 'board' will consist of 5 elements representing rows of the matrix. Each of those elements will also be an array, whose elements represent an actual tile.
 
