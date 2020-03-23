@@ -1,27 +1,28 @@
 # Minesweeper
 The Minesweeper game in 100 lines of JavaScript
 
-
-https://i.imgur.com/nOr6M7t.png
+<p align="right">
+<img src="https://i.imgur.com/nOr6M7t.png"></img>
+</p>
 
 We will create three arrays:
+
 1. "board", which will contain: 'mine' for mine or a number 0 thru 8 which is the number of mines in the eight neighboring tiles.
 2. "tile", which will consist of dynamically created image (IMG) objects, on which the player will click. The image can be:
 
-0.png thru 8.png - number of mines in neighboring tiles (blank means zero)
+  - 0.png thru 8.png - number of mines in neighboring tiles (blank means zero)
 
-hidden.png - covered tile
+  - hidden.png - covered tile
 
-flag.png - flag
+  - flag.png - flag
 
-question.png - question mark
+  - question.png - question mark
 
 These two are only shown after the game is finished:
 
-mine.png - a mine
+  - mine.png - a mine
 
-misplaced.png - a place where a flag was incorrectly placed
-
+  - misplaced.png - a place where a flag was incorrectly placed
 
 
 3. "picture", which will contain on of the following strings: hidden, flag and question so that we don't have to get the image name and strip the '.png' ending each time we need to check what the tile is showing
